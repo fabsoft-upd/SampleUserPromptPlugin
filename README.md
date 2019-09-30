@@ -10,11 +10,9 @@ The FabSoft Universal Printer Driver (UPD) API documentation is available at: ht
 
 **This sample project will use the text file below to produce the following dialogs:**
 
-* Text File:
-  [![SampleLookupFilePromptPluginFile.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginFile.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginFile.png)
 
-* Configuration Options:
-  [![SampleLookupFilePromptPluginConfig.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)
-
-* User Prompt Interface:
-  [![SampleLookupFilePromptPluginUI.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)
+| Note | Screenshot |
+|---|---|
+|Text File|[![SampleLookupFilePromptPluginFile.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginFile.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginFile.png)|
+|Configuration Options|[![SampleLookupFilePromptPluginConfig.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)|
+|User Prompt Interface|[![SampleLookupFilePromptPluginUI.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)|
