@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="SampleUpdUserPromptPlugin.PromptControls"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SampleUpdUserPromptPlugin"
+             mc:Ignorable="d" 
+             d:DesignWidth="500" d:DesignHeight="200">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <DockPanel>
+                <Button Name="btnRefresh" DockPanel.Dock="Right" Margin="3,0,3,0" Width="65">
+                    <TextBlock Text="Refresh" VerticalAlignment="Center" Margin="3" />
+                </Button>
+                <Label DockPanel.Dock="Right" Content="Sample File Lookup" VerticalAlignment="Center" Margin="25,0"></Label>
+                <ComboBox Name="cmbLookup" Margin= "1" HorizontalAlignment="Stretch" IsReadOnly="True">
+                </ComboBox>
+            </DockPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>
