@@ -4,7 +4,7 @@ User interaction can be a critical component of a document workflow. This projec
 **This sample demonstrates:**
 
 * Creating the options in the **Property Grid** to configure settings for user interaction.
-* Creating the dynamic controls that are displayed for user interaction when a document is being processed.
+* Creating the **dynamic controls** that are displayed for user interaction when a document is being processed.
 
 The FabSoft Universal Printer Driver (UPD) API documentation is available at: https://github.com/fabsoft-upd/SamplePlugin/wiki
 
@@ -14,5 +14,5 @@ The FabSoft Universal Printer Driver (UPD) API documentation is available at: ht
 | Note | Screenshot |
 |---|---|
 |Text File|[![SampleLookupFilePromptPluginFile.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginFile.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginFile.png)|
-|Configuration Options|[![SampleLookupFilePromptPluginConfig.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)|
-|User Prompt Interface|[![SampleLookupFilePromptPluginUI.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)|
+|Property Grid Configuration Options|[![SampleLookupFilePromptPluginConfig.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)|
+|Dynamic Controls for User Interaction|[![SampleLookupFilePromptPluginUI.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)|
