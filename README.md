@@ -8,6 +8,13 @@ User interaction can be a critical component of a document workflow. This projec
 
 The FabSoft Universal Printer Driver (UPD) API documentation is available at: https://github.com/fabsoft-upd/SamplePlugin/wiki
 
+**This sample project will use the text file below to produce the following dialogs:**
 
+* Text File:
+[![SampleLookupFilePromptPluginFile.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginFile.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginFile.png)
 
+* Configuration Options:
+[![SampleLookupFilePromptPluginConfig.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)
 
+* User Prompt Interface:
+[![SampleLookupFilePromptPluginUI.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)
