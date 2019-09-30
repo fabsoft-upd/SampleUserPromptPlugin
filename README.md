@@ -14,7 +14,7 @@ The FabSoft Universal Printer Driver (UPD) API documentation is available at: ht
 [![SampleLookupFilePromptPluginFile.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginFile.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginFile.png)
 
 * Configuration Options:
-[![SampleLookupFilePromptPluginConfig.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)
+  [![SampleLookupFilePromptPluginConfig.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)
 
 * User Prompt Interface:
-[![SampleLookupFilePromptPluginUI.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)
+  [![SampleLookupFilePromptPluginUI.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)
