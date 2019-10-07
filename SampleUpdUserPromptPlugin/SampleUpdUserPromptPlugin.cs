@@ -35,10 +35,10 @@ namespace SampleUpdUserPromptPlugin
 
         }
 
-        public SampleFileUserPrompt(string name, string visible)
+        public SampleFileUserPrompt(string name, string label)
         {
             Name = name;
-            Visible = visible;
+            Label = label;
         }
 
 
