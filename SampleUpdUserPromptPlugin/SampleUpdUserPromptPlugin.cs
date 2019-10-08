@@ -1,7 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Windows;
-using System.Windows.Controls;
 using System.IO;
 
 using FabSoftUpd.Wizard.Workflows_v1.UserPrompts;
@@ -30,10 +29,7 @@ namespace SampleUpdUserPromptPlugin
         [EditorAttribute(typeof(FileSelectionEditor), typeof(ITypeEditor))] // To customize the editor for this property in the Property Grid, use [EditorAttribute(typeof(<EDITOR>), typeof(ITypeEditor))]
         public string FilePath { get; set; } = null;
 
-        public SampleFileUserPrompt()
-        {
-
-        }
+        public SampleFileUserPrompt() { }
 
         public SampleFileUserPrompt(string name, string label)
         {
@@ -104,9 +100,9 @@ namespace SampleUpdUserPromptPlugin
                 {
                     _PromptControls.cmbLookup.ItemsSource = LoadFile();
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
-                    //TODO: Error
+                    // Ignore
                 }
             });
 
@@ -142,9 +138,9 @@ namespace SampleUpdUserPromptPlugin
                     return true;
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                //TODO: Error
+                // Ignore
             }
             return false;
         }
@@ -156,7 +152,7 @@ namespace SampleUpdUserPromptPlugin
 
         public override void Reset()
         {
-            //
+            // Not used
         }
     }
 }
