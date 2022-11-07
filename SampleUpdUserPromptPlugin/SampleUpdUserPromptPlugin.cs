@@ -2,11 +2,9 @@
 using System.ComponentModel;
 using System.Windows;
 using System.IO;
-
 using FabSoftUpd.Wizard.Workflows_v1.UserPrompts;
-
-using Xceed.Wpf.Toolkit.PropertyGrid.Editors;
 using System.Collections.Generic;
+using System.Windows.Input;
 
 namespace SampleUpdUserPromptPlugin
 {
@@ -25,8 +23,8 @@ namespace SampleUpdUserPromptPlugin
         public int HiddenProperty { get; set; } = 0;
 
         [DisplayName("Lookup File")]
-        [Xceed.Wpf.Toolkit.PropertyGrid.Attributes.PropertyOrder(1)] // To specify the order of properties, use [Xceed.Wpf.Toolkit.PropertyGrid.Attributes.PropertyOrder(#)]
-        [EditorAttribute(typeof(FileSelectionEditor), typeof(ITypeEditor))] // To customize the editor for this property in the Property Grid, use [EditorAttribute(typeof(<EDITOR>), typeof(ITypeEditor))]
+        [FabSoftUpd.Wizard.PropertyGrid.Attributes.PropertyOrderAttribute(1)] // To specify the order of properties, use [FabSoftUpd.Wizard.PropertyGrid.Attributes.PropertyOrderAttribute(#)]
+        [FabSoftUpd.Wizard.PropertyGrid.Attributes.EditorTypeAttribute(typeof(FileSelectionEditor))] // To customize the editor for this property in the Property Grid, use [FabSoftUpd.Wizard.PropertyGrid.Attributes.EditorTypeAttribute(typeof(<EDITOR>))]
         public string FilePath { get; set; } = null;
 
         public SampleFileUserPrompt() { }
@@ -83,7 +81,7 @@ namespace SampleUpdUserPromptPlugin
         }
 
         private PromptControls _PromptControls = null;
-        public override UIElement GetControl(out ValidateResult validator, string defaultValue)
+        public override UIElement GetControl(out ValidateResult validator, string defaultValue, string troubleshootingInfo = null, Dictionary<Key, Action<Window, string>> altKeyCallbacks = null)
         {
             AttachDebugger();
             
@@ -128,7 +126,7 @@ namespace SampleUpdUserPromptPlugin
             return fileData;
         }
 
-        public override bool Validate()
+        public override bool Validate(UIElement control)
         {
             try
             {
@@ -145,9 +143,10 @@ namespace SampleUpdUserPromptPlugin
             return false;
         }
 
-        public override void CalculateResult()
+        public override void CalculateResult(UIElement control, int pageIndex)
         {
-            UiResult = _PromptControls?.cmbLookup?.SelectedItem?.ToString();
+            string result = _PromptControls?.cmbLookup?.SelectedItem?.ToString();
+            SetResult(pageIndex, result);
         }
 
         public override void Reset()

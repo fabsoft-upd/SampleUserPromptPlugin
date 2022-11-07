@@ -1,13 +1,11 @@
 ﻿using FabSoftUpd.Wizard;
 using System.Windows;
-using Xceed.Wpf.Toolkit.PropertyGrid;
-using Xceed.Wpf.Toolkit.PropertyGrid.Editors;
 
 namespace SampleUpdUserPromptPlugin
 {
-    public class FileSelectionEditor : ITypeEditor
+    public class FileSelectionEditor : FabSoftUpd.Wizard.PropertyGrid.ICustomTypeEditor
     {
-        private PropertyItem _propertyItem;
+        private FabSoftUpd.Wizard.PropertyGrid.PropertyItem _propertyItem;
         private FilePropertyGridControl _gridControl;
 
 
@@ -24,7 +22,7 @@ namespace SampleUpdUserPromptPlugin
             }
         }
 
-        public FrameworkElement ResolveEditor(PropertyItem propertyItem)
+        public FrameworkElement ResolveEditor(FabSoftUpd.Wizard.PropertyGrid.PropertyItem propertyItem)
         {
             
             AttachDebugger();
