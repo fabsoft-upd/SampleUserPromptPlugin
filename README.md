@@ -1,6 +1,8 @@
 # FabSoft Desktop Automation Driver - Sample User Prompt Plugin
 User interaction can be a critical component of a document workflow. This project will demonstrate how to configure and dynamically create the **User Prompt** controls for the FabSoft Desktop Automation Driver (DAD) with a simple lookup file.
 
+**Please make sure that you are running the latest update of the FabSoft Desktop Automation Driver for this sample.**
+
 **This sample demonstrates:**
 
 * Creating the options in the **Property Grid** to configure settings for user interaction.
