@@ -15,6 +15,7 @@ The FabSoft Desktop Automation Driver (DAD) API documentation is available at: h
 
 | Note | Screenshot |
 |---|---|
+|Click the 'Configuire prompting the user for input' icon to configuire our prompt.|[![SampleLookupFilePromptPluginUserInput.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUserInput.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUserInput.png)|
 |Text File Included in the **_SampleLookupFile** folder|[![SampleLookupFilePromptPluginFile.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginFile.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginFile.png)|
 |Property Grid Configuration Options|[![SampleLookupFilePromptPluginConfig.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginConfig.png)|
 |Dynamic Controls for User Interaction|[![SampleLookupFilePromptPluginUI.png](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)](../../../SamplePlugin/wiki/images/SampleLookupFilePromptPluginUI.png)|
